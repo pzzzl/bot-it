@@ -1,7 +1,7 @@
 import os
 import time
-from src.path import Path
-from src.logger import logger
+from path import Path
+from logger import logger
 
 class Bot:
     def __init__(self, task_processor, input_folder, output_folder, extension, skip_first_line = False, remove_line_breaks = False):

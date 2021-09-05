@@ -1,7 +1,7 @@
 import logging
 import coloredlogs
 from datetime import date, datetime
-from .path import Path, os
+from path import Path, os
 
 path = os.getcwd()
 
